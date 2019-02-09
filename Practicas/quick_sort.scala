@@ -53,6 +53,6 @@ quick_sort(lista3)
 
 println("")
 println("Tercer caso, una lista de dos elementos desordenados")
-val lista3 = List(2,1,6,3,5,9,0)
+val lista3 = List(3,7,8,5,2,1,9,5,4)
 println("Resultado")
 quick_sort(lista3)
