@@ -10,7 +10,7 @@ def busquedaR(lista:List[String], elemento:String, indice:Int):Int={
         return -1
     }else{
         if(lista.head == elemento){
-            return indice+1
+            return indice
         }else{
             busquedaR(lista.tail,elemento,indice+1)
         }
