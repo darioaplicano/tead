@@ -1,3 +1,9 @@
+//Implementa de forma recursiva la búsqueda binaria en un 
+//vector de números reales de doble precisión. La función
+//debe devolver al igual que antes un número >= 0 que indica
+//dónde está el elemento en el vector y un número negativo si el
+//elemento no está, pero debería estar en esa posición.
+//Opcionalmente, puedes devolver también una tupla.
 
 def busquedaB(lista: List[Double], elemento: Double):(Int, Int) ={
     def busquedaBR(lista: List[Double], posicion: Int, movimiento: Boolean):(Int, Int) = {
