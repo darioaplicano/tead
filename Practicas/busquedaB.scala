@@ -24,10 +24,7 @@ def busquedaB(lista: List[Double], elemento: Double):(Int, Int) ={
                     (if(mitad == 0 & movimiento == false) posicion - 1 else posicion, -1)
         }
     }
-    if(lista.isEmpty)
-        (-1, -1)
-    else
-        busquedaBR(lista, (lista.length/2).toInt, true)
+    busquedaBR(lista, (lista.length/2).toInt, true)
 }
 
 val lista = List(1, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59.0)
